@@ -35,7 +35,7 @@ public class ColdAndHotPublisherTest {
 
         Thread.sleep(3000);
 
-        publish.subscribe((x) -> log.info("Subscriber 2 : ", x));
+        publish.subscribe((x) -> log.info("Subscriber 2 : ", x));//emits the same value
 
 
 
